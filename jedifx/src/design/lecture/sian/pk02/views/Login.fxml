@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="parent" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1800.0" styleClass="parent" stylesheets="@../css/Login.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="design.lecture.sian.pk02.controllers.LoginController">
+   <children>
+      <HBox fx:id="top" alignment="CENTER_RIGHT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="35.0" prefWidth="1800.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <children>
+            <Pane HBox.hgrow="ALWAYS">
+               <children>
+                  <Label text="사용자 로그인" textFill="#c9c7c7" HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Label alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#go_home" prefHeight="30.0" prefWidth="100.0" text="HOME" />
+            <Label maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#close_stage" prefHeight="30.0" prefWidth="30.0" text="Label">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" styleClass="close-btn">
+                     <image>
+                        <Image url="@../../../../../icon/app/close2.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Label>
+            <Label maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#minisize_stage" prefHeight="30.0" prefWidth="30.0" text="Label">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../icon/app/minimize.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Label>
+         </children>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </HBox>
+      <Pane fx:id="content" layoutX="8.0" layoutY="35.0" prefHeight="856.0" prefWidth="1800.0">
+         <children>
+            <HBox layoutX="419.0" layoutY="162.0" prefHeight="45.0" prefWidth="250.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="45.0" prefWidth="45.0" styleClass="gb-icon1" textFill="#f5f5f5">
+                     <graphic>
+                        <ImageView fitHeight="45.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../icon/app/baseline_account_circle_black_18dp.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Label>
+                  <TextField prefHeight="45.0" prefWidth="45.0" promptText="아이디" styleClass="txtfield" HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox layoutX="419.0" layoutY="218.0" prefHeight="45.0" prefWidth="250.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="45.0" prefWidth="45.0" styleClass="gb-icon1" textFill="#f5f5f5">
+                     <graphic>
+                        <ImageView fitHeight="45.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../icon/app/rotation.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Label>
+                  <PasswordField prefHeight="45.0" prefWidth="45.0" promptText="패스워드" styleClass="txtfield" HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </PasswordField>
+               </children>
+            </HBox>
+            <Button layoutX="419.0" layoutY="273.0" mnemonicParsing="false" onAction="#handle_login" prefHeight="45.0" prefWidth="250.0" styleClass="login-btn" text="SIGN IN">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button layoutX="419.0" layoutY="339.0" mnemonicParsing="false" onAction="#handle_graphic" prefHeight="45.0" prefWidth="250.0" styleClass="login-btn" text="그래프 보이기">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button layoutX="419.0" layoutY="406.0" mnemonicParsing="false" onAction="#handleWebview" prefHeight="45.0" prefWidth="250.0" styleClass="login-btn" text="웹뷰">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button layoutX="419.0" layoutY="468.0" mnemonicParsing="false" onAction="#handleTableView" prefHeight="45.0" prefWidth="250.0" styleClass="login-btn" text="테이블 뷰">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="design.lecture.sian.pk02.controllers.TableViewController">
+   <children>
+      <TableView fx:id="table" layoutX="14.0" layoutY="14.0" prefHeight="600.0" prefWidth="1700.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="id" prefWidth="99.0" text="Id" />
+          <TableColumn fx:id="name" prefWidth="250.0" text="Name" />
+            <TableColumn fx:id="surname" prefWidth="600.0" text="Surname" />
+            <TableColumn fx:id="age" prefWidth="120.0" text="Age" />
+            <TableColumn fx:id="age1" text="비고" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
