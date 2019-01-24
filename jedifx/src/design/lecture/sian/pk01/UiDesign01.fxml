@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane  id="content_login"  fx:id="content_login" prefHeight="680.0" prefWidth="980.0" styleClass="background-main" stylesheets="@UiDesign01.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="design.lecture.sian.pk01.UiDesign01Controller">
+   <children>
+      <Pane fx:id="painMain" layoutY="103.0" prefHeight="400.0" prefWidth="980.0" styleClass="background">
+         <children>
+            <VBox layoutX="7.0" layoutY="7.0">
+               <children>
+                  <Label text="회원가입 Acount" textFill="WHITE">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label minHeight="-Infinity" minWidth="-Infinity" prefWidth="250.0" text="여러분은 JavaFX에서 캐스케이딩 스타일 시트 (CSS)로 사용자 인터페이스를 꾸밀 수 있습니다. 정말 멋집니다" textFill="WHITE" wrapText="true">
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Button fx:id="signup" mnemonicParsing="false" onAction="#openSignup" prefHeight="35.0" prefWidth="120.0" styleClass="btn-trans-white-border" text="Sing Up">
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+               <padding>
+                  <Insets left="30.0" top="80.0" />
+               </padding>
+            </VBox>
+            <VBox layoutX="722.0" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Label text="로그인" textFill="WHITE">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label minHeight="-Infinity" minWidth="-Infinity" prefWidth="250.0" text="회원가입을 진행합니다. 어혓 가입하세요 !! 항상 즐거운 하루되세요 ~~~" textFill="WHITE" wrapText="true">
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Button fx:id="signin" mnemonicParsing="false" onAction="#openSingin" prefHeight="35.0" prefWidth="120.0" styleClass="btn-trans-white-border" text="Sing In">
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+               <padding>
+                  <Insets top="80.0" />
+               </padding>
+            </VBox>
+            <VBox fx:id="vbox" layoutX="22.0" layoutY="-40.0" prefHeight="480.0" prefWidth="480.0" styleClass="pane-white" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

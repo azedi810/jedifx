@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE sqlMapConfig
+        PUBLIC "-//iBATIS.com//DTD SQL Map Config 2.0//EN"
+        "http://www.ibatis.com/dtd/sql-map-config-2.dtd">
+
+<sqlMapConfig>
+
+    <settings
+        useStatementNamespaces="true"
+        lazyLoadingEnabled="true"
+        enhancementEnabled="true"
+        maxSessions="20"
+        />
+ 
+    <transactionManager type="JDBC" commitRequired="false">
+        <dataSource type="SIMPLE">
+ 
+            <property name="SetAutoCommitAllowed" value="false"/>
+            <property name="DefaultAutoCommit" value="false"/>
+             
+            <property name="JDBC.Driver" value="com.mysql.jdbc.Driver"/>
+            <property name="JDBC.ConnectionURL" value="jdbc:mysql://localhost/itjs"/>
+            <property name="JDBC.Username" value="itjs"/>
+            <property name="JDBC.Password" value="itjs123"/>
+    
+        </dataSource>
+    </transactionManager>
+
+    <sqlMap resource="./config/ibatis/test/MyLottoSql.xml"/> 		 
+ </sqlMapConfig>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="content" prefHeight="900.0" prefWidth="1800.0" styleClass="parent2" stylesheets="@../css/Login.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="design.lecture.sian.pk02.controllers.MenuController">
+   <children>
+      <Pane prefHeight="900.0" prefWidth="1800.0">
+         <children>
+            <Label layoutX="463.0" layoutY="278.0" text="시스템 접소했습니다." textFill="#30c21b">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="462.0" layoutY="164.0" text="환영합니다." textFill="#30c21b">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="464.0" layoutY="222.0" text="메인시스템" textFill="#30c21b">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Button layoutX="465.0" layoutY="332.0" mnemonicParsing="false" onAction="#handle_logou" prefWidth="150.0" styleClass="login-btn" text="로그아웃" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

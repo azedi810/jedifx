@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE sqlMap
+    PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN"
+    "http://www.ibatis.com/dtd/sql-map-2.dtd">
+    
+<sqlMap namespace="MyLottoSql" >
+ 
+  <!-- <insert id="insertContoh" parameterClass="javac.tutorial.gui.example.ibatismysql.Contoh" > 
+    insert into lotto (no, num)
+    values (1, 10000)
+  </insert> -->
+  
+ 	<select id="getList" parameterClass="string" resultClass="hashmap">
+		select * from lotto 
+	</select>  
+    <!-- 
+    where no=1588
+    values (#nama:VARCHAR#, #alamat:VARCHAR#) -->
+</sqlMap>
+

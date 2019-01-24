@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox id="VBox"  alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="480.0" stylesheets="@UiDesign01.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label styleClass="label-singin" text="회원가입 " textFill="#f40a0a">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="15.0" right="13.0" top="20.0" />
+         </VBox.margin>
+      </Label>
+      <HBox prefHeight="45.0" prefWidth="200.0" styleClass="tf-box">
+         <VBox.margin>
+            <Insets left="15.0" right="13.0" top="20.0" />
+         </VBox.margin>
+         <children>
+            <TextField maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" promptText="이름" HBox.hgrow="ALWAYS" />
+         </children></HBox>
+      <HBox prefHeight="45.0" prefWidth="200.0" styleClass="tf-box" stylesheets="@UiDesign01.css">
+         <children>
+            <TextField maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" promptText="아이디" HBox.hgrow="ALWAYS" />
+         </children>
+         <VBox.margin>
+            <Insets left="15.0" right="15.0" top="20.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox prefHeight="45.0" prefWidth="200.0" styleClass="tf-box" stylesheets="@UiDesign01.css">
+         <children>
+            <TextField maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" promptText="비밀번호" HBox.hgrow="ALWAYS" />
+         </children>
+         <VBox.margin>
+            <Insets left="15.0" right="15.0" top="20.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox alignment="CENTER_RIGHT" prefHeight="45.0" prefWidth="200.0">
+         <VBox.margin>
+            <Insets left="15.0" right="15.0" top="20.0" />
+         </VBox.margin>
+         <children>
+            <Button alignment="TOP_RIGHT" contentDisplay="TOP" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="회원가입을 해주세요" HBox.hgrow="ALWAYS">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="39.0" prefWidth="120.0" styleClass="btn-pink" text="가입하기">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</VBox>

@@ -1,0 +1,39 @@
+.background {
+    -fx-background-color: #333333;
+}
+
+.btn-trans-white-border {
+	-fx-background-color: transparent;
+	-fx-background-radius: 5px;
+	-fx-border-color:#cccccc;
+	-fx-border-radius:5px;
+	-fx-border-width:1px;
+	-fx-text-fill:whitesmoke;
+}
+
+.btn-pink {
+	-fx-background-color: #F78C7B; 
+	-fx-background-radius: 5px;
+    -fx-text-fill: white;
+}
+
+.pane-white {
+	-fx-background-color:#FFFFFF;
+}
+
+
+.label {
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: white;
+    -fx-opacity: 0.6;
+} 
+
+.tf-box { 	
+	-fx-border-color: #00cc00; 
+	-fx-border-width:  0px  0px  1px  0px;
+}
+
+.label-singin {
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: #f40a0a; 
+}
