@@ -1,6 +1,6 @@
 
 /* ###########################################################################################
-  *    css ¼³Á¤ 
+  *    css ì„¤ì • 
   * ######################################################################################### */
  
 			 /********************************************************
@@ -10,7 +10,7 @@
  
  .background {
     -fx-background-color: #333333;
-    -fx-background-color: transparent;   //Åõ¸í
+    -fx-background-color: transparent;   //íˆ¬ëª…
 }
 
 .parent2 {
@@ -18,7 +18,7 @@
     -fx-background-repeat: stretch;   
     -fx-background-size: 900 506;
     -fx-background-position: center center;
-    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);     -- ¶ó¿îµå ÁÖ±â 
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);     -- ë¼ìš´ë“œ ì£¼ê¸° 
 }
 
 
@@ -43,7 +43,7 @@
  
  
 			 /********************************************************
-			*  »ùÇÃ css 
+			*  ìƒ˜í”Œ css 
 			*********************************************************/	
  
 .label {

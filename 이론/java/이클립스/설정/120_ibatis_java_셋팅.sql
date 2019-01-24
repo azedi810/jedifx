@@ -39,9 +39,9 @@ public class IbatisConnect {
             	System.out.println("--> " + list.get(i) );
             }
         } catch (IOException e) {
-            throw new RuntimeException("  ###  IOException  vv ¿¡·¯ 1 :### " + e, e);
+            throw new RuntimeException("  ###  IOException  vv ì—ëŸ¬ 1 :### " + e, e);
         } catch (Exception e){
-            //throw new RuntimeException("  ### Exception ¿¡·¯ vv  2 : ###" + e, e);
+            //throw new RuntimeException("  ### Exception ì—ëŸ¬ vv  2 : ###" + e, e);
             e.printStackTrace();
         }
 	}
@@ -109,11 +109,11 @@ public class IbatisConnect {
 </sqlMap>
 
 /* ###########################################################################################
-  *   log4j ¼ÂÆÃ
+  *   log4j ì…‹íŒ…
   * ######################################################################################### */
  
 			 /********************************************************
-			* log4j-1.2.5.jar  ÆÄÀÏ add jars  Ãß°¡ 
+			* log4j-1.2.5.jar  íŒŒì¼ add jars  ì¶”ê°€ 
 			*********************************************************/	
  
 			 /********************************************************
@@ -136,29 +136,29 @@ log4j.appender.stdout.layout=org.apache.log4j.PatternLayout
 log4j.appender.stdout.layout.ConversionPattern=%5p[%t]-%m%n
 
 			 /********************************************************
-			*  /src/log4j.properties  ¼³¸í 
+			*  /src/log4j.properties  ì„¤ëª… 
 			*********************************************************/	
 
--- log4j.logger.com.ibatis=DEBUG .................  À§ÀÇ °ü·Ã ¼³Á¤µé 
-		- sqlmap °ü·Ã ·Î±× Ãâ·Â
+-- log4j.logger.com.ibatis=DEBUG .................  ìœ„ì˜ ê´€ë ¨ ì„¤ì •ë“¤ 
+		- sqlmap ê´€ë ¨ ë¡œê·¸ ì¶œë ¥
 		
 		
--- Appender  :   Ãâ·Â¹æ½Ä
-	- ConsoleAppender : ÄÜ¼Ö¿¡ Ãâ·ÂÇÏ´Â ¹æ½Ä ¼³Á¤ ÇÊ¿ä ¾øÀ½ 
-	- DailyRollingFileAppender : ½Ã°£À» ÁÖ±â·Î ÆÄÀÏÀ» »ı¼ºÇÏ¿© ±â·ÏÇÏ´Â ¹æ½Ä
-			- log4j.appender.Tech.DatePattern='.'yyyy-MM-dd    -- ÀÏ´ÜÀ§ ÀúÀå
-			- log4j.appender.Tech.DatePattern='.'yyyy-MM			-- ¿ù´ÜÀ§
-			- log4j.appender.Tech.DatePattern='.'yyyy-MM-dd-HH  -- ½Ã°£´ÜÀ§  
-	- RollingFileAppender : ÀÏÁ¤ ¿ë·®¸¸Å­ ÆÄÀÏ¿¡ ¾²´Â ¹æ½Ä 
+-- Appender  :   ì¶œë ¥ë°©ì‹
+	- ConsoleAppender : ì½˜ì†”ì— ì¶œë ¥í•˜ëŠ” ë°©ì‹ ì„¤ì • í•„ìš” ì—†ìŒ 
+	- DailyRollingFileAppender : ì‹œê°„ì„ ì£¼ê¸°ë¡œ íŒŒì¼ì„ ìƒì„±í•˜ì—¬ ê¸°ë¡í•˜ëŠ” ë°©ì‹
+			- log4j.appender.Tech.DatePattern='.'yyyy-MM-dd    -- ì¼ë‹¨ìœ„ ì €ì¥
+			- log4j.appender.Tech.DatePattern='.'yyyy-MM			-- ì›”ë‹¨ìœ„
+			- log4j.appender.Tech.DatePattern='.'yyyy-MM-dd-HH  -- ì‹œê°„ë‹¨ìœ„  
+	- RollingFileAppender : ì¼ì • ìš©ëŸ‰ë§Œí¼ íŒŒì¼ì— ì“°ëŠ” ë°©ì‹ 
 	
--- Layout : Ãâ·Â³»¿ë
-	- PatternLayout : ÆĞÅÏÀ» Á¤ÇÏ´Â ¹æ½Ä
-	- SimpleLayout : ½ÉÇÃÇÏ°Ô
-	- HTMLLayout : html ÇüÅÂ·Î ¸¸µé¾îÁØ´Ù 
-	- TTCCLayout : ½ÉÇÃº¸´Ù ¸¹ÀÌ ³ª¿È
+-- Layout : ì¶œë ¥ë‚´ìš©
+	- PatternLayout : íŒ¨í„´ì„ ì •í•˜ëŠ” ë°©ì‹
+	- SimpleLayout : ì‹¬í”Œí•˜ê²Œ
+	- HTMLLayout : html í˜•íƒœë¡œ ë§Œë“¤ì–´ì¤€ë‹¤ 
+	- TTCCLayout : ì‹¬í”Œë³´ë‹¤ ë§ì´ ë‚˜ì˜´
 	
 			 /********************************************************
-			*  /½Å¹®°í epeople Âü°í 
+			*  /ì‹ ë¬¸ê³  epeople ì°¸ê³  
 			*********************************************************/	
 		
 # Root Logger

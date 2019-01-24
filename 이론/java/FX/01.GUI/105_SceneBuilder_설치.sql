@@ -1,21 +1,21 @@
 
 /* ###########################################################################################
-  *   SceneBuilder FontAwesomeIconView  Àû¿ëÇÏ±â 
+  *   SceneBuilder FontAwesomeIconView  ì ìš©í•˜ê¸° 
   * ######################################################################################### */
  
 			 /********************************************************
-			*    FontAwesomeIconView  Àû¿ëÇÏ±â 
+			*    FontAwesomeIconView  ì ìš©í•˜ê¸° 
 			JavaFX scene builder: How to use add the FontAwesomeIconView control
 			*********************************************************/		
  
-			-- https://bitbucket.org/Jerady/fontawesomefx/downloads/     fontawesomefx-8.9.jar    ´Ù¿î·Îµå ¹Ş´Â´Ù.   
+			-- https://bitbucket.org/Jerady/fontawesomefx/downloads/     fontawesomefx-8.9.jar    ë‹¤ìš´ë¡œë“œ ë°›ëŠ”ë‹¤.   
 			 
 			
 			 /********************************************************
-			*    SceneBuilder-8.5.0  ½ÇÇàÇØ¼­   
+			*    SceneBuilder-8.5.0  ì‹¤í–‰í•´ì„œ   
 			*********************************************************/		
  
-		    jar fxml manager Å¬¸¯ ->   add library / fxml from file system  Å¬¸¯ÇØ¼­ ÇØ´ç À§Ä¡¿¡ ÀÖ´Â fontawesomefx-8.9.jar    ¼±ÅÃÇÏ¸é ³¡ 
+		    jar fxml manager í´ë¦­ ->   add library / fxml from file system  í´ë¦­í•´ì„œ í•´ë‹¹ ìœ„ì¹˜ì— ìˆëŠ” fontawesomefx-8.9.jar    ì„ íƒí•˜ë©´ ë 
 		
 
 
