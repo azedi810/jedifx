@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="206.0" prefWidth="180.0" xmlns:fx="http://javafx.com/fxml" xmlns="http://javafx.com/javafx/8.0.5">
+   <children>
+      <Circle blendMode="SRC_ATOP" fill="WHITE" layoutX="90.0" layoutY="103.0" radius="87.0" stroke="#4eb1df" strokeType="INSIDE" strokeWidth="3.0" />
+      <Label layoutX="45.0" layoutY="81.0" prefHeight="44.0" prefWidth="89.0" text="   재료 이름">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="60.0" layoutY="125.0" prefHeight="30.0" prefWidth="58.0" text=" (+가격)">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<fx:root prefHeight="157.0" prefWidth="157.0" type="javafx.scene.layout.StackPane" xmlns="http://javafx.com/javafx/8.0.5" xmlns:fx="http://javafx.com/fxml">
+   <children>
+      <Rectangle fx:id="rectangle" arcHeight="50.0" arcWidth="50.0" fill="#E0E0E0" height="126.0" width="126.0" />
+      <Label fx:id="name" alignment="CENTER" prefHeight="126.0" prefWidth="126.0" style="-fx-font-family: sans-serif; -fx-font-size: 14pt; -fx-font-weight: bold;" text="Label" textAlignment="CENTER" wrapText="true" StackPane.alignment="CENTER">
+         <StackPane.margin>
+            <Insets />
+         </StackPane.margin>
+         <padding>
+            <Insets bottom="9.0" top="9.0" />
+         </padding></Label>
+      <StackPane fx:id="customLabel" prefHeight="22.0" prefWidth="88.0" StackPane.alignment="TOP_CENTER">
+         <children>
+            <Rectangle arcHeight="22.0" arcWidth="22.0" fill="#1abc9c" height="22.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="88.0" StackPane.alignment="TOP_CENTER">
+               <StackPane.margin>
+                  <Insets top="6.5" />
+               </StackPane.margin>
+            </Rectangle>
+            <Label alignment="CENTER" text="On Demand" textAlignment="CENTER" textFill="WHITE" wrapText="true" StackPane.alignment="TOP_CENTER">
+               <StackPane.margin>
+                  <Insets top="9.5" />
+               </StackPane.margin>
+               <font>
+                  <Font name="Arial Bold" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </StackPane>
+   </children>
+</fx:root>

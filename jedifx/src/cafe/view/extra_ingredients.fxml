@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Ellipse?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="root" prefHeight="600.0" prefWidth="1200.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cafe.controller.ExtraIngredientController">
+   <Label alignment="CENTER" prefHeight="100.0" prefWidth="229.0" text="주문 옵션" textAlignment="CENTER">
+      <font>
+         <Font name="SansSerif Bold" size="36.0" />
+      </font>
+   </Label>
+   <HBox alignment="CENTER" spacing="30.0">
+      <VBox fx:id="leftContainer" alignment="CENTER" maxWidth="600" prefHeight="500.0" prefWidth="600.0" spacing="30.0">
+         <HBox alignment="CENTER" spacing="100.0">
+            <RadioButton mnemonicParsing="false" selected="true" text="ICE" textFill="BLUE" userData="false">
+               <toggleGroup>
+                  <ToggleGroup fx:id="isHot" />
+               </toggleGroup>
+               <font>
+                  <Font name="SansSerif Bold" size="20.0" />
+               </font>
+            </RadioButton>
+            <RadioButton mnemonicParsing="false" text="HOT" textFill="RED" toggleGroup="$isHot" userData="true">
+               <font>
+                  <Font name="SansSerif Bold" size="20.0" />
+               </font>
+            </RadioButton>
+         </HBox>
+         <CheckBox fx:id="isExtraCheck" mnemonicParsing="false" text="Extra Size" wrapText="true">
+            <font>
+               <Font name="SansSerif Bold" size="20.0" />
+            </font>
+         </CheckBox>
+         <ScrollPane fx:id="extraOuterContainer" maxWidth="540.0" prefHeight="350.0" prefWidth="540.0" style="-fx-background: #FFFFFF;-fx-border-color: #FFFFFF;" vbarPolicy="NEVER">
+            <VBox.margin>
+               <Insets />
+            </VBox.margin>
+            <HBox fx:id="extraContainer" prefHeight="327.0" style="-fx-background-color: white;" />
+         </ScrollPane>
+      </VBox>
+      <VBox prefHeight="505.0" prefWidth="474.0">
+         <children>
+            <StackPane prefHeight="426.0">
+               <children>
+                  <Circle fill="#e74c3c" radius="213.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+                  <Ellipse fill="WHITE" radiusX="237.0" radiusY="177.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="15.0">
+                     <children>
+                        <TextField fx:id="menuNameField" alignment="CENTER" disable="true" maxWidth="345.0" prefWidth="345.0">
+                           <font>
+                              <Font name="SansSerif Bold" size="30.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="50.0" />
+                           </VBox.margin>
+                        </TextField>
+                        <Label text="이미 존재하는 조합에는 이름을 붙일 수 없습니다." textAlignment="CENTER">
+                           <font>
+                              <Font name="SansSerif Regular" size="13.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="50.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label fx:id="priceLabel" text="0원" textFill="#2980b9">
+                           <font>
+                              <Font name="SansSerif Bold" size="25.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+            </StackPane>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="44.0">
+               <padding>
+                  <Insets bottom="10.0" />
+               </padding>
+               <Button fx:id="prevBtn" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="40.0" prefWidth="135.0" style="-fx-background-radius: 20; -fx-background-color: rgb(230, 230, 230);" text="&lt; PREV" textAlignment="CENTER" textFill="#838383">
+                  <font>
+                     <Font name="SansSerif Bold" size="15.0" />
+                  </font>
+               </Button>
+               <Button fx:id="nextBtn" mnemonicParsing="false" prefHeight="40.0" prefWidth="135.0" style="-fx-background-radius: 20; -fx-background-color: rgb(52, 152, 219)rgb(52, 152, 219);" text="NEXT &gt;" textFill="WHITE">
+                  <font>
+                     <Font name="SansSerif Bold" size="15.0" />
+                  </font>
+               </Button>
+            </HBox>
+         </children>
+      </VBox>
+   </HBox>
+</VBox>

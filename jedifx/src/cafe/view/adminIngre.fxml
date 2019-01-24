@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cafe.controller.AdminIngreController">
+   <children>
+      <Label layoutX="19.0" layoutY="19.0" text="Ingredient Config">
+         <font>
+            <Font name="SansSerif Regular" size="42.0" />
+         </font>
+      </Label>
+      <VBox layoutX="810.0" layoutY="46.0" prefHeight="254.0" prefWidth="368.0">
+         <children>
+            <Label text="Add">
+               <font>
+                  <Font name="SansSerif Regular" size="29.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="10.0" right="10.0" />
+               </VBox.margin>
+            </Label>
+            <Separator prefWidth="200.0" />
+            <HBox prefHeight="58.0" prefWidth="367.0">
+               <children>
+                  <Label text="Name : ">
+                     <font>
+                        <Font name="SansSerif Regular" size="30.0" />
+                     </font>
+                     <padding>
+                        <Insets top="20.0" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="addNameTextField" prefHeight="41.0" prefWidth="257.0">
+                     <font>
+                        <Font name="SansSerif Regular" size="26.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets top="15.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox prefHeight="58.0" prefWidth="367.0">
+               <children>
+                  <Label text="Cost : ">
+                     <font>
+                        <Font name="SansSerif Regular" size="30.0" />
+                     </font>
+                     <padding>
+                        <Insets top="20.0" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="addCostTextField" prefHeight="51.0" prefWidth="257.0" HBox.hgrow="NEVER">
+                     <font>
+                        <Font name="SansSerif Regular" size="26.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="18.0" top="15.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="btnAdd" mnemonicParsing="false" prefHeight="47.0" prefWidth="82.0" text="+Add">
+                     <font>
+                        <Font name="SansSerif Regular" size="21.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnRes" mnemonicParsing="false" prefHeight="47.0" prefWidth="81.0" text="Reset">
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="SansSerif Regular" size="19.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox layoutX="810.0" layoutY="315.0" prefHeight="262.0" prefWidth="368.0">
+         <children>
+            <Label text="Edit / Delete">
+               <font>
+                  <Font name="SansSerif Regular" size="29.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="10.0" right="10.0" />
+               </VBox.margin>
+            </Label>
+            <Separator prefWidth="200.0" />
+            <HBox prefHeight="58.0" prefWidth="367.0">
+               <children>
+                  <Label text="Name : ">
+                     <font>
+                        <Font name="SansSerif Regular" size="30.0" />
+                     </font>
+                     <padding>
+                        <Insets top="20.0" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="delNameTextField" prefHeight="41.0" prefWidth="257.0">
+                     <font>
+                        <Font name="SansSerif Regular" size="26.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets top="15.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox prefHeight="58.0" prefWidth="367.0">
+               <children>
+                  <Label text="Cost : ">
+                     <font>
+                        <Font name="SansSerif Regular" size="30.0" />
+                     </font>
+                     <padding>
+                        <Insets top="20.0" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="delCostTextField" prefHeight="51.0" prefWidth="257.0" HBox.hgrow="NEVER">
+                     <font>
+                        <Font name="SansSerif Regular" size="26.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="18.0" top="15.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="btnEdit" mnemonicParsing="false" prefHeight="47.0" prefWidth="82.0" text="Edit">
+                     <font>
+                        <Font name="SansSerif Regular" size="21.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnDel" mnemonicParsing="false" prefHeight="47.0" prefWidth="81.0" text="Delete">
+                     <HBox.margin>
+                        <Insets left="20.0" right="20.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="SansSerif Regular" size="19.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnCan" mnemonicParsing="false" prefHeight="46.0" prefWidth="112.0" text="Cancel">
+                     <font>
+                        <Font name="SansSerif Regular" size="20.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <TableView layoutX="19.0" layoutY="73.0" prefHeight="485.0" prefWidth="770.0" fx:id="ingredientTable">
+        <columns>
+          <TableColumn prefWidth="620.0" text="Ingredient Name" fx:id="nameColumn"/>
+          <TableColumn minWidth="0.0" prefWidth="150.0" text="Price" fx:id="priceColumn"/>
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

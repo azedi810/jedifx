@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<fx:root type="javafx.scene.layout.VBox" prefHeight="273.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/8.0.5" xmlns:fx="http://javafx.com/fxml">
+   <children>
+      <StackPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Circle fill="#dddddd" radius="100.0" stroke="WHITE" strokeType="INSIDE" fx:id="choiceCircle"/>
+            <Label fx:id="nameLabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="62.0" prefWidth="186.0" text="Ingredient" wrapText="true">
+               <font>
+                  <Font name="SansSerif Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="costLabel" alignment="CENTER" prefHeight="47.0" prefWidth="126.0" text="(+Price)" textAlignment="CENTER">
+               <StackPane.margin>
+                  <Insets top="100.0" />
+               </StackPane.margin>
+               <font>
+                  <Font name="SansSerif Regular" size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </StackPane>
+      <HBox fx:id="amountContainer" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="5.0">
+         <children>
+            <Label alignment="CENTER" text="수량:" wrapText="true">
+               <font>
+                  <Font name="SansSerif Regular" size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="amountField" alignment="CENTER" prefHeight="36.0" prefWidth="63.0" text="1">
+               <font>
+                  <Font name="SansSerif Bold" size="15.0" />
+               </font></TextField>
+            <Label fx:id="defaultAmountLabel" alignment="CENTER" contentDisplay="CENTER" text="(기본 1)" textAlignment="CENTER">
+               <font>
+                  <Font name="SansSerif Regular" size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+   </children>
+</fx:root>
