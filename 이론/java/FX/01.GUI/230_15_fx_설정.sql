@@ -12,6 +12,9 @@
 			
 			-- gluon scene builder  사용법
 			https://www.youtube.com/watch?v=ChVV36xWCTg&t=0s&list=PLFwM-68OtdyBpT5PRuzMuuBw-cvCT3Oyt&index=2
+			
+			-- 디자인 많다. 
+			https://www.youtube.com/watch?v=izZapCMy52M&index=42&list=PLlGZc17KPrVAKj3Tl1im5HN8Lh5nYTXyB
 
 
 
