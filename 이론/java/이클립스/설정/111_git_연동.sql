@@ -21,7 +21,9 @@
 4. 기본 Branch인 master를 선택합니다. 
 5. 깃이 연동될 디렉토리를 선택해줍니다. local 의 저장소 지정하신다고 보시면 될 것같습니다.
 
-6. git repositories 전환해서  import projects 하면 로컬로 다운로드 받아진다.  
+6. git repositories 전환해서  import projects 하면 로컬로 다운로드 받아진다.
+   - working tree 오른쪽 마우스   import projects   
+   - close newly imported projects upon completion 체크 후 finish 눌러 종료한다 
 
 
 
