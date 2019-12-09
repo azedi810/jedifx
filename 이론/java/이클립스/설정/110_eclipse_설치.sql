@@ -29,3 +29,7 @@
 	*********************************************************/		
 Window -> Preferences -> Data Management -> SQL Development -> SQL Editor -> Syntax Coloring
 
+
+
+
+asdfasdfasf
