@@ -35,11 +35,10 @@ REST는 HTTP 프로토콜로 데이터를 전달하는 프레임워크이다. �
 REST 구조에서의 리소스는 그들 의 고유한 URI를 가지며, HTTP의 기본 메소드인 GET/PUT/POST/DELETE만으로 접근할 수 있다. 
 
 
-
-출처: https://mygumi.tistory.com/55 [마이구미의 HelloWorld]
-
-
-출처: https://mygumi.tistory.com/55 [마이구미의 HelloWorld]
+	/*****************************************************
+	* rest api xml response example java
+	******************************************************/
+https://howtodoinjava.com/spring-restful/spring-rest-hello-world-xml-example/
 
 	/*****************************************************
 	* SOAP
