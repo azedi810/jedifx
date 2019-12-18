@@ -29,7 +29,28 @@
    (globals.properties　파일의 위치: src/main/resources > egovframework > egovProps > globals.properties을 확인한다.) 
     해당 properties 파일에 수동으로 정보를 입력한다. 
     그리고 maven clean, maven install을 한 후 run as-run on server 를 실행한다.
+    
+/* ############################################################################
+*  db 세팅  
+##############################################################################*/
+   
+	/*****************************************************
+	* mysql   /src/main/resources/egovframework/egovProps/globals.properties
+	******************************************************/
+Globals.OsType = WINDOWS
 
+Globals.DbType = mysql
+
+Globals.mysql.DriverClassName=net.sf.log4jdbc.DriverSpy
+Globals.mysql.Url=jdbc:log4jdbc:mysql://127.0.0.1:3306/egov
+Globals.mysql.UserName = egov
+Globals.mysql.Password = egovtest
+    
+	/*****************************************************
+	* dml, ddl  스크립트로 생성해준다. 
+	******************************************************/
+    mysql/com_DDL_mysql.sql
+    com_DML_mysql.sql
     
 /* ############################################################################
 *  problems 

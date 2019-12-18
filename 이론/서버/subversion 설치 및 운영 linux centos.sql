@@ -4,37 +4,37 @@
 ##############################################################################*/
 
 	/*****************************************************
-	*  ¼¼Á¾½Ã Áı ¼­¹ö Á¤º¸ 
+	*  ì„¸ì¢…ì‹œ ì§‘ ì„œë²„ ì •ë³´ 
 	******************************************************/
-		°èÁ¤Á¤º¸
-		svnroot : È«*s**
-		°èÁ¤ : knu /  knu9012   -->    url(svn://192.168.219.129/knu)     kr.ac.knu.ipsi1   °æºÏ´ë ÀÔ½Ã
-		°èÁ¤ : fund=djufund777   -->    url(svn://192.168.219.129/djufund)     kr.ac.dju.fund   ´ëÀü´ë ¹ßÀü±â±İ
-		°èÁ¤ : javis=javis0518   -->    url(svn://192.168.219.129/javis)        °³¹ß¼­¹ö
-		°èÁ¤ : peaks=0822        -->    url(svn://192.168.219.129/peaks)      ¶óÀÎÇÈ½º
+		ê³„ì •ì •ë³´
+		svnroot : í™*s**
+		ê³„ì • : knu /  knu9012   -->    url(svn://192.168.219.129/knu)     kr.ac.knu.ipsi1   ê²½ë¶ëŒ€ ì…ì‹œ
+		ê³„ì • : fund=djufund777   -->    url(svn://192.168.219.129/djufund)     kr.ac.dju.fund   ëŒ€ì „ëŒ€ ë°œì „ê¸°ê¸ˆ
+		ê³„ì • : javis=javis0518   -->    url(svn://192.168.219.129/javis)        ê°œë°œì„œë²„
+		ê³„ì • : peaks=0822        -->    url(svn://192.168.219.129/peaks)      ë¼ì¸í”½ìŠ¤
 
 	/*****************************************************
-	*  itjs : 219.240.134.13 ¹ø ¼­¹ö Á¤º¸ 
+	*  itjs : 219.240.134.13 ë²ˆ ì„œë²„ ì •ë³´ 
 	******************************************************/
-		°èÁ¤Á¤º¸
-		svnroot : È«*s**
-		°èÁ¤ : knu /  knu9012   -->    url(svn://219.240.134.13/knu)     kr.ac.knu.ipsi1   °æºÏ´ë ÀÔ½Ã
-		°èÁ¤ : fund=djufund777   -->    url(svn://219.240.134.13/djufund)     kr.ac.dju.fund   ´ëÀü´ë ¹ßÀü±â±İ
-		°èÁ¤ : javis=javis0518   -->    url(svn://219.240.134.13/javis)        °³¹ß¼­¹ö
-		°èÁ¤ : peaks=0822        -->    url(svn://219.240.134.13/peaks)      ¶óÀÎÇÈ½º
+		ê³„ì •ì •ë³´
+		svnroot : í™*s**
+		ê³„ì • : knu /  knu9012   -->    url(svn://219.240.134.13/knu)     kr.ac.knu.ipsi1   ê²½ë¶ëŒ€ ì…ì‹œ
+		ê³„ì • : fund=djufund777   -->    url(svn://219.240.134.13/djufund)     kr.ac.dju.fund   ëŒ€ì „ëŒ€ ë°œì „ê¸°ê¸ˆ
+		ê³„ì • : javis=javis0518   -->    url(svn://219.240.134.13/javis)        ê°œë°œì„œë²„
+		ê³„ì • : peaks=0822        -->    url(svn://219.240.134.13/peaks)      ë¼ì¸í”½ìŠ¤
 
-php °èÁ¤
-°èÁ¤ : phpdev=phpwebprogram   -->    url(svn://219.240.134.13/phpdevpriviate)        php °³¹ß Å×½ºÆ®
+php ê³„ì •
+ê³„ì • : phpdev=phpwebprogram   -->    url(svn://219.240.134.13/phpdevpriviate)        php ê°œë°œ í…ŒìŠ¤íŠ¸
 
-ÀÎÅÍÄ¿¹Â´ÏÆ¼ 21¹ø ÄÄÇ»ÅÍ °øÀ¯ ¸ñÀû
+ì¸í„°ì»¤ë®¤ë‹ˆí‹° 21ë²ˆ ì»´í“¨í„° ê³µìœ  ëª©ì 
 window=document09~!     ----------->  svn://219.240.134.13/windowdocu
 
-¹é¾÷¹Ş±â
-¹ßÀü±â±İ : svn checkout svn://localhost/djufund         /* /data/nas/sdb1/subversion/djufund/workspace  °æ·Î¿¡¼­ ½ÇÇàÇÑ´Ù */
-ÀÚºñ½ºÇÁ : svn checkout svn://localhost/javis        /* /data/nas/sdb1/subversion/javis/workspace  °æ·Î¿¡¼­ ½ÇÇàÇÑ´Ù */
-°æºÏ´ëÇĞ : svn checkout svn://localhost/knu     
+ë°±ì—…ë°›ê¸°
+ë°œì „ê¸°ê¸ˆ : svn checkout svn://localhost/djufund         /* /data/nas/sdb1/subversion/djufund/workspace  ê²½ë¡œì—ì„œ ì‹¤í–‰í•œë‹¤ */
+ìë¹„ìŠ¤í”„ : svn checkout svn://localhost/javis        /* /data/nas/sdb1/subversion/javis/workspace  ê²½ë¡œì—ì„œ ì‹¤í–‰í•œë‹¤ */
+ê²½ë¶ëŒ€í•™ : svn checkout svn://localhost/knu     
  
-subversion ¼³Ä¡
+subversion ì„¤ì¹˜
 #] yum install   subversion
 Installing:
  subversion-devel                                 i386                                1.6.11-11.el5_9                                   base                                266 k
@@ -47,7 +47,7 @@ Installing for dependencies:
  ruby-libs                                        i386                                1.8.5-31.el5_9                                    base                                1.6 M
 Transaction Summary
 
-¸í·É¾î help
+ëª…ë ¹ì–´ help
 #] svnadmin help
    crashtest
    create
@@ -70,11 +70,11 @@ Transaction Summary
    upgrade
    verify
  
-ÀúÀå¼Ò ¸¸µé±â
-°¡. ¹öÅ¬¸® DB¸¦ ÀÌ¿ëÇÑ ÀúÀå¼Ò ¸¸µé±â
+ì €ì¥ì†Œ ë§Œë“¤ê¸°
+ê°€. ë²„í´ë¦¬ DBë¥¼ ì´ìš©í•œ ì €ì¥ì†Œ ë§Œë“¤ê¸°
 #]  svnadmin create --fs-type   bdb  /data/nas/sdb1/subversion/knuipsi1
  
-³ª. ÆÄÀÏ ½Ã½ºÅÛÀ» ÀÌ¿ëÇÑ ÀúÀå¼Ò ¸¸µé±â  (ÀÌ°É·Î ¸¸µé¾î¶ó)
+ë‚˜. íŒŒì¼ ì‹œìŠ¤í…œì„ ì´ìš©í•œ ì €ì¥ì†Œ ë§Œë“¤ê¸°  (ì´ê±¸ë¡œ ë§Œë“¤ì–´ë¼)
 #]  svnadmin create --fs-type  fsfs  /data/nas/sdb1/subversion/knuipsi1 
 
 #]  adduser svnroot
@@ -96,23 +96,23 @@ test=1111
 
 star stop
 #] su - svnroot
-#] svnserve -d -r /data/nas/sdb1/subversion      /* svnadmin create »ı¼ºÇÑ Æú´õ¸íÀº »©°í ÁøÇà  */
+#] svnserve -d -r /data/nas/sdb1/subversion      /* svnadmin create ìƒì„±í•œ í´ë”ëª…ì€ ë¹¼ê³  ì§„í–‰  */
 
-¼­ºñ½º Á×ÀÌ±â
+ì„œë¹„ìŠ¤ ì£½ì´ê¸°
 #] killall svnserve
-³×Æ®¿öÅ© È®ÀÎ 
-#] netstat -an | grep LI | grep 3690     /* Æ÷Åä ¹øÈ£ È®ÀÎÇØ¼­ iptable ¿¡¼­ ¼³Á¤ Ç®¾îÁØ´Ù */
+ë„¤íŠ¸ì›Œí¬ í™•ì¸ 
+#] netstat -an | grep LI | grep 3690     /* í¬í†  ë²ˆí˜¸ í™•ì¸í•´ì„œ iptable ì—ì„œ ì„¤ì • í’€ì–´ì¤€ë‹¤ */
 
 iptable
 -A RH-Firewall-1-INPUT -m state --state NEW -m tcp -p tcp --dport 3690 -j ACCEPT
 
-°æºÏ´ëÇĞ±³ checkout
+ê²½ë¶ëŒ€í•™êµ checkout
 
-»óÅÂ È®ÀÎ
-#] svn checkout svn://localhost/knuipsi1 test       /* È®ÀÎÇÑ´Ù */
+ìƒíƒœ í™•ì¸
+#] svn checkout svn://localhost/knuipsi1 test       /* í™•ì¸í•œë‹¤ */
  
  
-#] svn list svn://219.240.134.13/knuipsi1  /* ¸®½ºÆ® È®ÀÎÇÏ±â */
+#] svn list svn://219.240.134.13/knuipsi1  /* ë¦¬ìŠ¤íŠ¸ í™•ì¸í•˜ê¸° */
 #] svn list svn://219.240.134.13/knuipsi1/trunk/
 co.kr.interbank.api/
 com.jk.test1/
@@ -121,7 +121,7 @@ com.jk.test1/
 
 
 
-eclipse ¿¡¼­ È®ÀÎ »çÇ×
+eclipse ì—ì„œ í™•ì¸ ì‚¬í•­
 svn://219.240.134.13/knuipsi1
 test= 1111
  
